@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data (regenerate with `python data/make_demo.py`)
+data/*.csv
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Tests / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
